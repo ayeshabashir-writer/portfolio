@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ayesha Bashir — Content Specialist</title>
+        <meta name="description" content="Ayesha Bashir — Content specialist, SEO blog and article writer, YouTube scriptwriter, and email marketer.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <style>
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+        :root{
+            --bg:#06060b;--bg2:#0c0c14;--card:#14141e;--card-h:#1a1a26;
+            --t1:#f2f2f8;--t2:#9898b0;--t3:#5e5e78;
+            --blue:#4f6ef7;--purple:#8b5cf6;--pink:#c084fc;
+            --grad:linear-gradient(135deg,#4f6ef7,#8b5cf6,#c084fc);
+            --grad-h:linear-gradient(135deg,#6b84ff,#a78bfa,#d4a5ff);
+            --bdr:rgba(255,255,255,.06);--bdr-h:rgba(255,255,255,.12);
+            --glow-b:rgba(79,110,247,.12);--glow-p:rgba(139,92,246,.12);
+            --sh:0 4px 24px rgba(0,0,0,.35);--sh-h:0 8px 40px rgba(0,0,0,.5);
+            --r1:8px;--r2:12px;--r3:16px;--r4:24px;
+            --tf:.2s ease;--tb:.3s ease;
+            --ff:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+        }
+        html{scroll-behavior:smooth;font-size:16px}
+        body{font-family:var(--ff);background:var(--bg);color:var(--t1);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+        ::selection{background:rgba(79,110,247,.3);color:#fff}
+        a{text-decoration:none;color:inherit}img{max-width:100%;display:block}ul{list-style:none}
+        .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+        .sec{padding:100px 0;position:relative}
+        .sec-label{display:inline-flex;align-items:center;gap:8px;font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--blue);margin-bottom:16px;background:rgba(79,110,247,.08);padding:6px 16px;border-radius:100px;border:1px solid rgba(79,110,247,.15)}
+        .sec-t{font-size:clamp(1.9rem,4vw,2.7rem);font-weight:800;line-height:1.15;margin-bottom:18px}
+        .sec-sub{font-size:1.05rem;color:var(--t2);max-width:540px;line-height:1.75}
+        .gt{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .rv{opacity:0;transform:translateY(36px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}.rv.on{opacity:1;transform:translateY(0)}
+        .rv-l{opacity:0;transform:translateX(-36px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}.rv-l.on{opacity:1;transform:translateX(0)}
+        .rv-r{opacity:0;transform:translateX(36px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}.rv-r.on{opacity:1;transform:translateX(0)}
+        .d1{transition-delay:.1s!important}.d2{transition-delay:.2s!important}.d3{transition-delay:.3s!important}.d4{transition-delay:.4s!important}.d5{transition-delay:.5s!important}.d6{transition-delay:.6s!important}
+        .bg-grid{position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:64px 64px}
+        .glow{position:absolute;border-radius:50%;filter:blur(120px);pointer-events:none;z-index:0}
+        .g1{width:600px;height:600px;background:var(--glow-b);top:-220px;right:-180px}
+        .g2{width:500px;height:500px;background:var(--glow-p);bottom:-220px;left:-180px}
+        .g3{width:400px;height:400px;background:rgba(79,110,247,.06);top:50%;left:50%;transform:translate(-50%,-50%)}
+        .nav{position:fixed;top:0;left:0;width:100%;z-index:1000;padding:20px 0;transition:all var(--tb)}
+        .nav.sc{background:rgba(6,6,11,.88);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--bdr);padding:14px 0}
+        .nav .wrap{display:flex;align-items:center;justify-content:space-between}
+        .nav-logo{font-size:1.2rem;font-weight:700;letter-spacing:-.02em}.nav-logo span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .nav-links{display:flex;align-items:center;gap:30px}
+        .nav-links a{font-size:.84rem;font-weight:500;color:var(--t2);transition:color var(--tf);position:relative}
+        .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--grad);border-radius:2px;transition:width var(--tb)}
+        .nav-links a:hover{color:var(--t1)}.nav-links a:hover::after{width:100%}
+        .nav-cta{font-size:.84rem;font-weight:600;padding:10px 22px;background:var(--grad);color:#fff;border-radius:100px;border:none;cursor:pointer;transition:all var(--tb);box-shadow:0 4px 20px rgba(79,110,247,.25)}
+        .nav-cta:hover{box-shadow:0 6px 30px rgba(79,110,247,.4);transform:translateY(-1px)}
+        .nav-tog{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px;z-index:1001}
+        .nav-tog span{display:block;width:24px;height:2px;background:var(--t1);border-radius:2px;transition:all var(--tb)}
+        .nav-tog.on span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+        .nav-tog.on span:nth-child(2){opacity:0}
+        .nav-tog.on span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+        .mob-menu{display:none;position:fixed;inset:0;background:rgba(6,6,11,.97);backdrop-filter:blur(20px);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:32px;opacity:0;transition:opacity var(--tb)}
+        .mob-menu.open{display:flex;opacity:1}
+        .mob-menu a{font-size:1.5rem;font-weight:600;color:var(--t2);transition:color var(--tf)}.mob-menu a:hover{color:var(--t1)}
+        .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding-top:80px}
+        .hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+        .hero-c{position:relative;z-index:2}
+        .hero-badge{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:500;color:var(--t2);background:var(--card);padding:8px 18px;border-radius:100px;border:1px solid var(--bdr);margin-bottom:36px;animation:fiD .8s ease forwards}
+        .hero-badge .dot{width:8px;height:8px;background:#22c55e;border-radius:50%;animation:pd 2s infinite}
+        @keyframes pd{0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,.4)}50%{box-shadow:0 0 0 6px rgba(34,197,94,0)}}
+        .hero-name{font-size:clamp(2.8rem,6vw,4.2rem);font-weight:900;line-height:1.05;letter-spacing:-.03em;margin-bottom:16px;animation:fiU .8s .2s ease forwards;opacity:0}
+        .hero-name span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .hero-tagline{font-size:clamp(1.15rem,2.5vw,1.5rem);font-weight:300;color:var(--t2);letter-spacing:.02em;margin-bottom:48px;animation:fiU .8s .4s ease forwards;opacity:0}
+        .hero-btns{display:flex;gap:16px;flex-wrap:wrap;animation:fiU .8s .6s ease forwards;opacity:0}
+        .btn-p{display:inline-flex;align-items:center;gap:8px;font-size:.93rem;font-weight:600;padding:14px 32px;background:var(--grad);color:#fff;border-radius:100px;border:none;cursor:pointer;transition:all var(--tb);box-shadow:0 4px 24px rgba(79,110,247,.3);position:relative;overflow:hidden}
+        .btn-p::before{content:'';position:absolute;inset:0;background:var(--grad-h);opacity:0;transition:opacity var(--tb)}
+        .btn-p:hover::before{opacity:1}.btn-p:hover{transform:translateY(-2px);box-shadow:0 8px 36px rgba(79,110,247,.45)}
+        .btn-p span,.btn-p i{position:relative;z-index:1}
+        .btn-s{display:inline-flex;align-items:center;gap:8px;font-size:.93rem;font-weight:600;padding:14px 32px;background:transparent;color:var(--t1);border-radius:100px;border:1px solid var(--bdr-h);cursor:pointer;transition:all var(--tb)}
+        .btn-s:hover{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.2);transform:translateY(-2px)}
+        .hero-stats{display:flex;gap:40px;margin-top:56px;animation:fiU .8s .8s ease forwards;opacity:0}
+        .st-n{font-size:1.7rem;font-weight:800;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .st-l{font-size:.78rem;color:var(--t3);font-weight:500;margin-top:2px}
+        .hero-v{position:relative;display:flex;align-items:center;justify-content:center;animation:fiR 1s .4s ease forwards;opacity:0}
+        .hero-img-w{position:relative;width:370px;height:450px;border-radius:var(--r4);overflow:hidden;border:1px solid var(--bdr)}
+        .hero-img-w img{width:100%;height:100%;object-fit:cover;object-position:center top;transition:transform 8s ease}
+        .hero-img-w:hover img{transform:scale(1.05)}
+        .hero-img-ov{position:absolute;bottom:0;left:0;width:100%;height:50%;background:linear-gradient(to top,var(--bg),transparent)}
+        .fl-card{position:absolute;background:rgba(20,20,30,.92);backdrop-filter:blur(16px);border:1px solid var(--bdr);border-radius:var(--r2);padding:14px 18px;display:flex;align-items:center;gap:12px;animation:fl 4s ease-in-out infinite;box-shadow:var(--sh)}
+        .fl-card.c1{top:40px;right:-36px}.fl-card.c2{bottom:60px;left:-36px;animation-delay:2s}.fl-card.c3{bottom:160px;right:-30px;animation-delay:1s}
+        .fl-ic{width:38px;height:38px;border-radius:var(--r1);background:var(--grad);display:flex;align-items:center;justify-content:center;color:#fff;font-size:.9rem;flex-shrink:0}
+        .fl-t{font-size:.78rem;font-weight:600;color:var(--t1)}.fl-st{font-size:.68rem;color:var(--t3);font-weight:400}
+        @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+        @keyframes fiU{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+        @keyframes fiD{from{opacity:0;transform:translateY(-18px)}to{opacity:1;transform:translateY(0)}}
+        @keyframes fiR{from{opacity:0;transform:translateX(36px)}to{opacity:1;transform:translateX(0)}}
+        .about{background:var(--bg2);overflow:hidden}
+        .about .wrap{display:grid;grid-template-columns:380px 1fr;gap:80px;align-items:center}
+        .ab-img-col{position:relative}
+        .ab-img-frame{position:relative;width:100%;aspect-ratio:3/4;border-radius:var(--r3);overflow:hidden;border:1px solid var(--bdr);box-shadow:0 20px 60px rgba(0,0,0,.4)}
+        .ab-img-frame img{width:100%;height:100%;object-fit:cover;object-position:center top}
+        .ab-img-frame::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(6,6,11,.3) 100%);pointer-events:none}
+        .ab-img-accent{position:absolute;bottom:-20px;right:-20px;width:100%;height:100%;border-radius:var(--r3);border:2px solid rgba(79,110,247,.12);z-index:-1}
+        .ab-text-col{display:flex;flex-direction:column;gap:32px}
+        .ab-heading{font-size:clamp(1.5rem,3vw,2rem);font-weight:800;line-height:1.25;color:var(--t1)}
+        .ab-heading span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .ab-intro{font-size:1.02rem;color:var(--t2);line-height:1.9;font-weight:400;max-width:580px}
+        .ab-intro strong{color:var(--t1);font-weight:700}
+        .ab-highlights{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+        .ab-hl-item{display:flex;align-items:center;gap:12px;padding:14px 18px;background:var(--card);border-radius:var(--r2);border:1px solid var(--bdr);transition:all var(--tb)}
+        .ab-hl-item:hover{border-color:var(--bdr-h);background:var(--card-h)}
+        .ab-hl-dot{width:8px;height:8px;border-radius:50%;background:var(--grad);flex-shrink:0}
+        .ab-hl-item span{font-size:.88rem;font-weight:500;color:var(--t2)}
+        .ab-cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+        .srv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:52px}
+        .srv-card{background:var(--card);border:1px solid var(--bdr);border-radius:var(--r3);padding:34px 26px;transition:all var(--tb);position:relative;overflow:hidden}
+        .srv-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:var(--grad);transform:scaleX(0);transform-origin:left;transition:transform var(--tb)}
+        .srv-card:hover::before{transform:scaleX(1)}
+        .srv-card:hover{border-color:var(--bdr-h);background:var(--card-h);transform:translateY(-6px);box-shadow:var(--sh-h)}
+        .srv-ic{width:50px;height:50px;border-radius:var(--r2);background:rgba(79,110,247,.08);border:1px solid rgba(79,110,247,.12);display:flex;align-items:center;justify-content:center;font-size:1.15rem;color:var(--blue);margin-bottom:20px;transition:all var(--tb)}
+        .srv-card:hover .srv-ic{background:var(--grad);color:#fff;border-color:transparent;transform:scale(1.05)}
+        .srv-card h3{font-size:1.08rem;font-weight:700;margin-bottom:10px}
+        .srv-card p{font-size:.84rem;color:var(--t2);margin-bottom:18px;line-height:1.7}
+        .srv-feat{display:flex;flex-direction:column;gap:8px}
+        .srv-feat li{display:flex;align-items:center;gap:10px;font-size:.8rem;color:var(--t2)}
+        .srv-feat li i{color:var(--blue);font-size:.6rem}
+        .projects{background:var(--bg2)}
+        .proj-hd{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:24px}
+        .proj-filt{display:flex;gap:8px;flex-wrap:wrap}
+        .filt-btn{padding:7px 18px;font-size:.8rem;font-weight:500;border-radius:100px;border:1px solid var(--bdr);background:transparent;color:var(--t2);cursor:pointer;transition:all var(--tf);font-family:var(--ff)}
+        .filt-btn.on,.filt-btn:hover{background:var(--grad);color:#fff;border-color:transparent}
+        .proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+        .proj-card{background:var(--card);border:1px solid var(--bdr);border-radius:var(--r3);overflow:hidden;transition:all var(--tb);cursor:pointer}
+        .proj-card:hover{border-color:var(--bdr-h);transform:translateY(-4px);box-shadow:var(--sh-h)}
+        .proj-thumb{width:100%;aspect-ratio:16/10;position:relative;overflow:hidden}
+        .proj-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.16,1,.3,1)}
+        .proj-card:hover .proj-thumb img{transform:scale(1.06)}
+        .proj-thumb .thumb-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;transition:opacity var(--tb)}
+        .proj-thumb .thumb-overlay .thumb-icon{width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.15);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;font-size:1.3rem;color:#fff;transition:all var(--tb)}
+        .proj-card:hover .thumb-icon{transform:scale(1.12);background:rgba(255,255,255,.25)}
+        .proj-thumb .thumb-overlay .thumb-label{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.85);text-shadow:0 1px 4px rgba(0,0,0,.4)}
+        .proj-thumb.ov-article .thumb-overlay{background:linear-gradient(135deg,rgba(180,40,40,.78),rgba(120,20,60,.82))}
+        .proj-thumb.ov-blog .thumb-overlay{background:linear-gradient(135deg,rgba(30,80,180,.75),rgba(60,40,160,.8))}
+        .proj-thumb.ov-youtube .thumb-overlay{background:linear-gradient(135deg,rgba(140,20,20,.8),rgba(60,10,80,.82))}
+        .proj-thumb.ov-email .thumb-overlay{background:linear-gradient(135deg,rgba(16,130,100,.78),rgba(20,80,120,.8))}
+        .proj-thumb .hover-title{position:absolute;bottom:0;left:0;right:0;padding:16px;background:linear-gradient(to top,rgba(0,0,0,.85),transparent);transform:translateY(100%);transition:transform var(--tb)}
+        .proj-card:hover .hover-title{transform:translateY(0)}
+        .hover-title span{font-size:.82rem;font-weight:600;color:#fff;display:block;line-height:1.4}
+        .hover-title small{font-size:.7rem;color:rgba(255,255,255,.65);font-weight:500}
+        .proj-info{padding:20px}
+        .proj-cat{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--blue);margin-bottom:7px}
+        .proj-info h3{font-size:.92rem;font-weight:600;margin-bottom:8px;transition:color var(--tf);line-height:1.4}
+        .proj-card:hover .proj-info h3{color:var(--blue)}
+        .proj-info p{font-size:.8rem;color:var(--t3);line-height:1.6}
+        .proj-tag{display:inline-block;font-size:.68rem;font-weight:500;padding:3px 10px;border-radius:100px;margin-top:10px;background:rgba(79,110,247,.08);color:var(--blue);border:1px solid rgba(79,110,247,.12)}
+        .proj-link{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:600;color:var(--blue);margin-top:10px;transition:gap var(--tf)}
+        .proj-card:hover .proj-link{gap:10px}
+        .ts-slider{position:relative;margin-top:52px;overflow:hidden}
+        .ts-track{display:flex;transition:transform .6s cubic-bezier(.16,1,.3,1)}
+        .ts-card{min-width:100%;padding:0 36px}
+        .ts-inner{max-width:700px;margin:0 auto;text-align:center}
+        .ts-stars{display:flex;justify-content:center;gap:4px;margin-bottom:26px}.ts-stars i{color:#f59e0b;font-size:.95rem}
+        .ts-quote{font-size:1.1rem;font-weight:400;color:var(--t1);line-height:1.8;margin-bottom:30px;font-style:italic;position:relative}
+        .ts-quote::before{content:'\201C';font-size:4rem;font-weight:800;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;position:absolute;top:-28px;left:50%;transform:translateX(-50%);opacity:.3;font-style:normal}
+        .ts-auth{display:flex;flex-direction:column;align-items:center;gap:8px}
+        .ts-av{width:50px;height:50px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center;font-size:1.05rem;font-weight:700;color:#fff}
+        .ts-name{font-size:.98rem;font-weight:600}.ts-role{font-size:.82rem;color:var(--t3)}
+        .sl-ctrl{display:flex;justify-content:center;align-items:center;gap:20px;margin-top:38px}
+        .sl-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--bdr);background:var(--card);color:var(--t2);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all var(--tf);font-size:.85rem}
+        .sl-btn:hover{border-color:var(--blue);color:var(--blue);background:rgba(79,110,247,.08)}
+        .sl-dots{display:flex;gap:8px}
+        .sl-dot{width:8px;height:8px;border-radius:50%;background:var(--bdr-h);border:none;cursor:pointer;transition:all var(--tb)}
+        .sl-dot.on{background:var(--blue);width:24px;border-radius:4px}
+        .ai-sec{background:var(--bg2)}
+        .ai-sec .wrap{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+        .ai-tools{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
+        .ai-tc{background:var(--card);border:1px solid var(--bdr);border-radius:var(--r2);padding:22px 14px;text-align:center;transition:all var(--tb)}
+        .ai-tc:hover{border-color:var(--bdr-h);transform:translateY(-4px);box-shadow:var(--sh)}
+        .ai-ti{width:46px;height:46px;border-radius:var(--r1);display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-size:1.1rem}
+        .ai-ti.cg{background:rgba(16,163,127,.12);color:#10a37f}.ai-ti.cl{background:rgba(216,158,96,.12);color:#d89e60}.ai-ti.gm{background:rgba(66,133,244,.12);color:#4285f4}
+        .ai-tc h4{font-size:.88rem;font-weight:600;margin-bottom:3px}.ai-tc p{font-size:.72rem;color:var(--t3)}
+        .ai-steps{display:flex;flex-direction:column;gap:18px}
+        .ai-step{display:flex;gap:18px;padding:20px;background:var(--card);border:1px solid var(--bdr);border-radius:var(--r2);transition:all var(--tb)}
+        .ai-step:hover{border-color:var(--bdr-h);transform:translateX(6px)}
+        .ai-sn{width:34px;height:34px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:700;color:#fff;flex-shrink:0}
+        .ai-st h4{font-size:.92rem;font-weight:600;margin-bottom:3px}.ai-st p{font-size:.83rem;color:var(--t2);line-height:1.6}
+        .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:52px}
+        .why-card{background:var(--card);border:1px solid var(--bdr);border-radius:var(--r2);padding:28px 24px;transition:all var(--tb);display:flex;flex-direction:column;gap:12px}
+        .why-card:hover{border-color:var(--bdr-h);background:var(--card-h);transform:translateY(-4px)}
+        .why-ic{width:44px;height:44px;border-radius:var(--r1);background:rgba(79,110,247,.08);display:flex;align-items:center;justify-content:center;color:var(--blue);font-size:.95rem;transition:all var(--tb)}
+        .why-card:hover .why-ic{background:var(--grad);color:#fff;transform:rotate(-5deg) scale(1.05)}
+        .why-card h4{font-size:.95rem;font-weight:600}.why-card p{font-size:.83rem;color:var(--t2);line-height:1.7}
+        .contact{background:var(--bg2)}
+        .contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+        .ct-info{display:flex;flex-direction:column;gap:30px}.ct-info .sec-sub{margin-bottom:0}
+        .ct-methods{display:flex;flex-direction:column;gap:16px}
+        .ct-m{display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--card);border-radius:var(--r2);border:1px solid var(--bdr);transition:all var(--tb)}
+        .ct-m:hover{border-color:var(--bdr-h);transform:translateX(4px)}
+        .ct-m-ic{width:42px;height:42px;border-radius:var(--r1);background:rgba(79,110,247,.08);display:flex;align-items:center;justify-content:center;color:var(--blue);font-size:.95rem;flex-shrink:0}
+        .ct-m-t h4{font-size:.88rem;font-weight:600;margin-bottom:2px}.ct-m-t p{font-size:.83rem;color:var(--t2)}
+        .ct-m-t a{color:var(--blue);transition:color var(--tf)}.ct-m-t a:hover{color:var(--purple)}
+        .soc-links{display:flex;gap:12px;margin-top:8px}
+        .soc-link{width:42px;height:42px;border-radius:var(--r1);border:1px solid var(--bdr);background:var(--card);display:flex;align-items:center;justify-content:center;color:var(--t2);font-size:.95rem;transition:all var(--tf)}
+        .soc-link:hover{border-color:var(--blue);color:var(--blue);background:rgba(79,110,247,.08);transform:translateY(-2px)}
+        .ct-form-w{background:var(--card);border:1px solid var(--bdr);border-radius:var(--r3);padding:38px}
+        .ct-form-w h3{font-size:1.25rem;font-weight:700;margin-bottom:6px}
+        .ct-form-w>.form-note{font-size:.82rem;color:var(--t3);margin-bottom:22px}
+        .fg{margin-bottom:18px}
+        .fg label{display:block;font-size:.83rem;font-weight:500;color:var(--t2);margin-bottom:7px}
+        .fg input,.fg textarea{width:100%;padding:13px 16px;background:var(--bg);border:1px solid var(--bdr);border-radius:var(--r1);color:var(--t1);font-size:.88rem;font-family:var(--ff);transition:all var(--tf);outline:none}
+        .fg input::placeholder,.fg textarea::placeholder{color:var(--t3)}
+        .fg input:focus,.fg textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(79,110,247,.1)}
+        .fg textarea{min-height:130px;resize:vertical}
+        .fg-submit{width:100%;padding:15px;background:var(--grad);color:#fff;border:none;border-radius:var(--r1);font-size:.95rem;font-weight:600;font-family:var(--ff);cursor:pointer;transition:all var(--tb);box-shadow:0 4px 20px rgba(79,110,247,.3);display:flex;align-items:center;justify-content:center;gap:8px}
+        .fg-submit:hover{box-shadow:0 6px 30px rgba(79,110,247,.45);transform:translateY(-1px)}
+        .fg-submit:disabled{opacity:.7;cursor:not-allowed}
+        .footer{padding:56px 0 30px;border-top:1px solid var(--bdr)}
+        .ft-c{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:36px}
+        .ft-logo{font-size:1.12rem;font-weight:700}.ft-logo span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .ft-links{display:flex;gap:26px}.ft-links a{font-size:.83rem;color:var(--t2);transition:color var(--tf)}.ft-links a:hover{color:var(--t1)}
+        .ft-bot{text-align:center;padding-top:30px;border-top:1px solid var(--bdr);font-size:.78rem;color:var(--t3)}
+        .s-top{position:fixed;bottom:30px;right:30px;width:46px;height:46px;border-radius:50%;background:var(--grad);color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.95rem;box-shadow:0 4px 20px rgba(79,110,247,.3);opacity:0;transform:translateY(20px);transition:all var(--tb);z-index:100;pointer-events:none}
+        .s-top.vis{opacity:1;transform:translateY(0);pointer-events:auto}.s-top:hover{transform:translateY(-3px);box-shadow:0 6px 30px rgba(79,110,247,.45)}
+        @media(max-width:1024px){
+            .hero .wrap{grid-template-columns:1fr;text-align:center}.hero-btns{justify-content:center}.hero-stats{justify-content:center}.hero-v{display:none}
+            .about .wrap{grid-template-columns:1fr;gap:48px}.ab-img-col{max-width:340px;margin:0 auto}
+            .ab-highlights{grid-template-columns:1fr 1fr}
+            .srv-grid{grid-template-columns:1fr 1fr}.proj-grid{grid-template-columns:repeat(2,1fr)}
+            .ai-sec .wrap{grid-template-columns:1fr;gap:48px}.why-grid{grid-template-columns:repeat(2,1fr)}
+            .contact .wrap{grid-template-columns:1fr;gap:48px}
+        }
+        @media(max-width:768px){
+            .sec{padding:72px 0}.nav-links,.nav-cta{display:none}.nav-tog{display:flex}
+            .hero-name{font-size:clamp(2.2rem,9vw,3.2rem)}.hero-tagline{font-size:clamp(1rem,3vw,1.3rem)}.hero-stats{gap:24px}.st-n{font-size:1.35rem}
+            .ab-heading{font-size:1.4rem}.ab-highlights{grid-template-columns:1fr}
+            .proj-grid{grid-template-columns:1fr;max-width:460px;margin-left:auto;margin-right:auto}
+            .proj-hd{flex-direction:column;align-items:flex-start}
+            .ts-card{padding:0 14px}.ts-quote{font-size:1.02rem}
+            .why-grid,.srv-grid{grid-template-columns:1fr;max-width:460px;margin-left:auto;margin-right:auto}
+            .ft-c{flex-direction:column;text-align:center}.ft-links{flex-wrap:wrap;justify-content:center}
+        }
+        @media(max-width:480px){
+            .wrap{padding:0 16px}.hero-btns{flex-direction:column;width:100%}
+            .hero-btns .btn-p,.hero-btns .btn-s{justify-content:center;width:100%}
+            .hero-stats{flex-direction:column;align-items:center;gap:16px}
+            .ct-form-w{padding:26px 18px}.ai-tools{grid-template-columns:1fr}
+            .proj-filt{gap:6px}.filt-btn{padding:6px 14px;font-size:.75rem}
+            .ab-cta-row{flex-direction:column}
+        }
+        ::-webkit-scrollbar{width:7px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--bdr-h);border-radius:4px}::-webkit-scrollbar-thumb:hover{background:var(--t3)}
+    </style>
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <nav class="nav" id="nav">
+        <div class="wrap">
+            <a href="#" class="nav-logo"><span>Ayesha</span> Bashir</a>
+            <div class="nav-links"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Portfolio</a><a href="#testimonials">Testimonials</a><a href="#contact">Contact</a></div>
+            <a href="#contact" class="nav-cta">Hire Me</a>
+            <button class="nav-tog" id="navTog" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+    <div class="mob-menu" id="mobMenu">
+        <a href="#about" class="ml">About</a><a href="#services" class="ml">Services</a><a href="#projects" class="ml">Portfolio</a><a href="#testimonials" class="ml">Testimonials</a><a href="#contact" class="ml">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="glow g1"></div><div class="glow g2"></div>
+        <div class="wrap">
+            <div class="hero-c">
+                <div class="hero-badge"><span class="dot"></span> Available for freelance work</div>
+                <h1 class="hero-name"><span>Ayesha Bashir</span></h1>
+                <p class="hero-tagline">Content specialist</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-p"><span>View Portfolio</span><i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn-s"><i class="fas fa-paper-plane"></i><span>Hire Me</span></a>
+                </div>
+                <div class="hero-stats">
+                    <div><div class="st-n" id="st1">15+</div><div class="st-l">Published Works</div></div>
+                    <div><div class="st-n">2+</div><div class="st-l">Years Experience</div></div>
+                    <div><div class="st-n">5+</div><div class="st-l">Content Niches</div></div>
+                </div>
+            </div>
+            <div class="hero-v">
+                <div class="hero-img-w">
+                    <img src="https://z-cdn-media.chatglm.cn/files/bae89e6f-eabf-43fc-b6af-076f617f14a3.png?auth_key=1875106646-5f047749ec514f859c49ba71940c6b58-0-80fba2a8d3386fe7025c5564223f439b" alt="Ayesha Bashir">
+                    <div class="hero-img-ov"></div>
+                </div>
+                <div class="fl-card c1"><div class="fl-ic"><i class="fas fa-chart-line"></i></div><div><div class="fl-t">SEO Optimized</div><div class="fl-st">Rank higher on Google</div></div></div>
+                <div class="fl-card c2"><div class="fl-ic"><i class="fab fa-youtube"></i></div><div><div class="fl-t">YouTube Scripts</div><div class="fl-st">High retention writing</div></div></div>
+                <div class="fl-card c3"><div class="fl-ic"><i class="fas fa-envelope"></i></div><div><div class="fl-t">Email Marketing</div><div class="fl-st">Converts leads to clients</div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="sec about" id="about">
+        <div class="glow g3"></div>
+        <div class="wrap">
+            <div class="ab-img-col rv-l">
+                <div class="ab-img-frame">
+                    <img src="https://z-cdn-media.chatglm.cn/files/bae89e6f-eabf-43fc-b6af-076f617f14a3.png?auth_key=1875106646-5f047749ec514f859c49ba71940c6b58-0-80fba2a8d3386fe7025c5564223f439b" alt="Ayesha Bashir — Content Specialist">
+                </div>
+                <div class="ab-img-accent"></div>
+            </div>
+            <div class="ab-text-col rv-r">
+                <span class="sec-label"><i class="fas fa-user"></i> About Me</span>
+                <h2 class="ab-heading"><span>Ayesha Bashir</span> — Your Content Specialist</h2>
+                <p class="ab-intro">
+                    With over 2 years of freelance content writing experience, I specialize in crafting SEO blogs, research-based articles, and high-retention YouTube scripts that don't just fill pages — they drive real outcomes. My approach is rooted in thorough research, audience-first writing, and strategic optimization, ensuring every piece of content I deliver contributes to higher search rankings, deeper audience engagement, and stronger brand authority. Whether it's a thought-provoking article for a news publication, a compelling script for a YouTube channel, or a cold email that lands a high-value client, I bring the same level of precision, professionalism, and purpose to every project.
+                </p>
+                <div class="ab-highlights">
+                    <div class="ab-hl-item"><div class="ab-hl-dot"></div><span>SEO Blog Writing</span></div>
+                    <div class="ab-hl-item"><div class="ab-hl-dot"></div><span>Research-Based Articles</span></div>
+                    <div class="ab-hl-item"><div class="ab-hl-dot"></div><span>YouTube Script Writing</span></div>
+                    <div class="ab-hl-item"><div class="ab-hl-dot"></div><span>Cold Emailing & Email Marketing</span></div>
+                </div>
+                <div class="ab-cta-row">
+                    <a href="#projects" class="btn-p" style="font-size:.88rem;padding:12px 28px"><span>See My Work</span><i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn-s" style="font-size:.88rem;padding:12px 28px"><i class="fas fa-paper-plane"></i><span>Get In Touch</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="sec services" id="services">
+        <div class="glow g1"></div>
+        <div class="wrap">
+            <div style="text-align:center" class="rv">
+                <span class="sec-label"><i class="fas fa-briefcase"></i> Services</span>
+                <h2 class="sec-t">What I <span class="gt">Offer</span></h2>
+                <p class="sec-sub" style="margin:0 auto">End-to-end content solutions — from writing to outreach — tailored to grow your brand.</p>
+            </div>
+            <div class="srv-grid">
+                <div class="srv-card rv d1"><div class="srv-ic"><i class="fas fa-blog"></i></div><h3>SEO Blog Writing</h3><p>Data-driven blog posts optimized for search engines while keeping readers genuinely engaged.</p><ul class="srv-feat"><li><i class="fas fa-check"></i> Keyword research & strategy</li><li><i class="fas fa-check"></i> On-page SEO optimization</li><li><i class="fas fa-check"></i> Readability formatting</li></ul></div>
+                <div class="srv-card rv d2"><div class="srv-ic"><i class="fas fa-newspaper"></i></div><h3>Article Writing</h3><p>Well-researched, authoritative articles that position your brand as a thought leader.</p><ul class="srv-feat"><li><i class="fas fa-check"></i> In-depth research</li><li><i class="fas fa-check"></i> Authority building</li><i class="fas fa-check"></i> Audience engagement</li></ul></div>
+                <div class="srv-card rv d3"><div class="srv-ic"><i class="fab fa-youtube"></i></div><h3>YouTube Script Writing</h3><p>Compelling scripts with strong hooks and storytelling that maximize viewer retention.</p><ul class="srv-feat"><li><i class="fas fa-check"></i> Attention-grabbing hooks</li><li><i class="fas fa-check"></i> Storytelling structure</li><i class="fas fa-check"></i> High retention scripts</li></ul></div>
+                <div class="srv-card rv d4"><div class="srv-ic"><i class="fas fa-envelope-open-text"></i></div><h3>Cold Emailing</h3><p>Personalized cold emails that break through the noise and get responses from decision-makers.</p><ul class="srv-feat"><li><i class="fas fa-check"></i> Personalized outreach</li><i class="fas fa-check"></i> High open rates</li><i class="fas fa-check"></i> Follow-up sequences</li></ul></div>
+                <div class="srv-card rv d5"><div class="srv-ic"><i class="fas fa-envelope-circle-check"></i></div><h3>Email Marketing</h3><p>Strategic email campaigns that nurture leads, build trust, and drive conversions.</p><ul class="srv-feat"><li><i class="fas fa-check"></i> Campaign strategy</li><i class="fas fa-check"></i> Newsletter writing</li><i class="fas fa-check"></i> Conversion optimization</li></ul></div>
+                <div class="srv-card rv d6"><div class="srv-ic"><i class="fas fa-robot"></i></div><h3>AI-Assisted Content</h3><p>Leveraging AI tools for research efficiency, then refining with human expertise.</p><ul class="srv-feat"><li><i class="fas fa-check"></i> ChatGPT, Claude, Gemini</li><i class="fas fa-check"></i> Human quality assurance</li><i class="fas fa-check"></i> Fast turnaround</li></ul></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="sec projects" id="projects">
+        <div class="glow g2"></div>
+        <div class="wrap">
+            <div class="proj-hd rv">
+                <div>
+                    <span class="sec-label"><i class="fas fa-folder-open"></i> Portfolio</span>
+                    <h2 class="sec-t">My Published <span class="gt">Work</span></h2>
+                    <p class="sec-sub">Real published articles, active blog sites, YouTube scripts, and email campaigns.</p>
+                </div>
+                <div class="proj-filt">
+                    <button class="filt-btn on" data-f="all">All</button>
+                    <button class="filt-btn" data-f="article">Articles</button>
+                    <button class="filt-btn" data-f="blog">Blogs</button>
+                    <button class="filt-btn" data-f="youtube">YouTube Scripts</button>
+                    <button class="filt-btn" data-f="email">Email Marketing</button>
+                </div>
+            </div>
+            <div class="proj-grid" id="pGrid">
+                <div class="proj-card rv d1" data-c="article"><div class="proj-thumb ov-article"><img src="https://picsum.photos/seed/editorial-women/800/500.jpg" alt="Patriarchy Article"><div class="thumb-overlay"><i class="fas fa-newspaper thumb-icon"></i><span class="thumb-label">Published Article</span></div><div class="hover-title"><span>Patriarchy's Impact on Women</span><small>Sada-e-Watan · Social Issues</small></div></div><div class="proj-info"><div class="proj-cat">Article · Social Issues</div><h3>Patriarchy's Impact on Pakistani Women's Autonomy and Decision-Making</h3><p>In-depth analysis of how patriarchal norms restrict women's independence in Pakistani society.</p><span class="proj-tag">Sada-e-Watan</span><a href="https://sada-e-watan.com/patriarchys-impact-on-pakistani-womens-autonomy-and-decision-making/" target="_blank" class="proj-link">Read Article <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="proj-card rv d2" data-c="article"><div class="proj-thumb ov-article"><img src="https://picsum.photos/seed/investigative-report/800/500.jpg" alt="Madrassas"><div class="thumb-overlay"><i class="fas fa-newspaper thumb-icon"></i><span class="thumb-label">Investigative Article</span></div><div class="hover-title"><span>Dark Side of Madrassas</span><small>Sada-e-Watan · Part 1</small></div></div><div class="proj-info"><div class="proj-cat">Article · Investigative</div><h3>Dark Side of Pakistan's Madrassas: Rampant Child Abuse (Part 1)</h3><p>Hard-hitting investigative piece exposing hidden realities of child abuse in religious seminaries.</p><span class="proj-tag">Sada-e-Watan</span><a href="https://sada-e-watan.com/dark-side-of-pakistans-madrassas-rampant-child-abuse-part-1/" target="_blank" class="proj-link">Read Article <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="proj-card rv d3" data-c="article"><div class="proj-thumb ov-article"><img src="https://picsum.photos/seed/institutional-reform/800/500.jpg" alt="Madrassas Part 2"><div class="thumb-overlay"><i class="fas fa-newspaper thumb-icon"></i><span class="thumb-label">Investigative Article</span></div><div class="hover-title"><span>Madrassas — Reform Needed</span><small>Sada-e-Watan · Part 2</small></div></div><div class="proj-info"><div class="proj-cat">Article · Investigative</div><h3>Dark Side of Pakistan's Madrassas: Rampant Child Abuse (Part 2)</h3><p>Continuation diving into systemic failures and the urgent need for seminary governance reform.</p><span class="proj-tag">Sada-e-Watan</span><a href="https://sada-e-watan.com/dark-side-of-pakistans-madrassas-rampant-child-abuse-part-2/" target="_blank" class="proj-link">Read Article <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="proj-card rv d1" data-c="article"><div class="proj-thumb ov-article"><img src="https://picsum.photos/seed/healthcare-system/800/500.jpg" alt="Hospitals"><div class="thumb-overlay"><i class="fas fa-newspaper thumb-icon"></i><span class="thumb-label">Published Article</span></div><div class="hover-title"><span>Treatment Without Dignity</span><small>Sada-e-Watan · Healthcare</small></div></div><div class="proj-info"><div class="proj-cat">Article · Healthcare</div><h3>Treatment Without Dignity: How Pakistani Hospitals Turn Illness Into Trauma</h3><p>Critical examination of dehumanizing patient treatment in Pakistan's healthcare system.</p><span class="proj-tag">Sada-e-Watan</span><a href="https://sada-e-watan.com/treatment-without-dignity-how-pakistani-hospitals-turn-illness-into-trauma/" target="_blank" class="proj-link">Read Article <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="proj-card rv d2" data-c="article"><div class="proj-thumb ov-article"><img src="https://picsum.photos/seed/places-worship/800/500.jpg" alt="Social Harmony"><div class="thumb-overlay"><i class="fas fa-newspaper thumb-icon"></i><span class="thumb-label">Published Article</span></div><div class="hover-title"><span>Erosion of Social Harmony</span><small>Sada-e-Watan · Social Cohesion</small></div></div><div class="proj-info"><div class="proj-cat">Article · Social Issues</div><h3>Erosion of Social Harmony: Hate, Violence & Collapse of Safety in Worship Places</h3><p>Exploring rising intolerance targeting Pakistan's places of worship and its impact on social cohesion.</p><span class="proj-tag">Sada-e-Watan</span><a href="https://sada-e-watan.com/erosion-of-social-harmony-hate-violence-and-the-collapse-of-safety-in-pakistans-places-of-worship/" target="_blank" class="proj-link">Read Article <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="proj-card rv d3" data-c="article"><div class="proj-thumb ov-article"><img src="https://picsum.photos/seed/population-growth/800/500.jpg" alt="Population"><div class="thumb-overlay"><i class="fas fa-newspaper thumb-icon"></i><span class="thumb-label">Published Article</span></div><div class="hover-title"><span>Unchecked Population Growth</span><small>Sada-e-Watan · Demographics</small></div></div><div class="proj-info"><div class="proj-cat">Article · Demographics</div><h3>Unchecked Population Growth and Its Ripple Effects on Pakistan's Social Fabric</h3><p>Analytical piece on how rapid population growth strains Pakistan's resources and infrastructure.</p><span class="proj-tag">Sada-e-Watan</span><a href="https://sada-e-watan.com/unchecked-population-growth-and-its-ripple-effects-on-pakistans-social-fabric/" target="_blank" class="proj-link">Read Article <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="proj-card rv d1" data-c="blog"><div class="proj-thumb ov-blog"><img src="https://picsum.photos/seed/seo-blog-analytics/800/500.jpg" alt="Online Earning Blog"><div class="thumb-overlay"><i class="fas fa-blog thumb-icon"></i><span class="thumb-label">Blogger Site</span></div><div class="hover-title"><span>Online Earning Blog</span><small>Blogger · SEO Content</small></div></div><div class="proj-info"><div class="proj-cat">Blog · SEO Content</div><h3>Online Earning Blog</h3><p>Blogger-based site with SEO-optimized posts covering freelancing tips and digital income methods.</p><span class="proj-tag">Blogger</span><a href="https://onlinearning01234.blogspot.com/" target="_blank" class="proj-link">Visit Blog <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="proj-card rv d2" data-c="blog"><div class="proj-thumb ov-blog"><img src="https://picsum.photos/seed/wordpress-blog-layout/800/500.jpg" alt="Blogro"><div class="thumb-overlay"><i class="fab fa-wordpress thumb-icon"></i><span class="thumb-label">WordPress Site</span></div><div class="hover-title"><span>Blogro</span><small>WordPress · Multi-Niche</small></div></div><div class="proj-info"><div class="proj-cat">Blog · WordPress</div><h3>Blogro — WordPress Blog</h3><p>WordPress-hosted multi-niche blog with SEO-structured content on lifestyle and technology topics.</p><span class="proj-tag">WordPress</span><a href="https://blogroup885.wordpress.com" target="_blank" class="proj-link">Visit Blog <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="proj-card rv d1" data-c="youtube"><div class="proj-thumb ov-youtube"><img src="https://picsum.photos/seed/drama-cinematic/800/500.jpg" alt="Sister Stole Fiancé"><div class="thumb-overlay"><i class="fab fa-youtube thumb-icon"></i><span class="thumb-label">Drama Script</span></div><div class="hover-title"><span>My Sister Stole My Fiancé</span><small>YouTube · Drama & Revenge</small></div></div><div class="proj-info"><div class="proj-cat">YouTube Script · Drama</div><h3>My Sister Stole My Fiancé — Then I Married Him at Her Wedding</h3><p>Cinematic drama script with scene direction, lighting cues, and a powerful revenge storyline for maximum retention.</p><span class="proj-tag">Storytelling / Drama</span></div></div>
+                <div class="proj-card rv d2" data-c="youtube"><div class="proj-thumb ov-youtube"><img src="https://picsum.photos/seed/documentary-disturbing/800/500.jpg" alt="Iceberg"><div class="thumb-overlay"><i class="fab fa-youtube thumb-icon"></i><span class="thumb-label">Documentary Script</span></div><div class="hover-title"><span>Iceberg of Disturbing Things</span><small>YouTube · True Crime</small></div></div><div class="proj-info"><div class="proj-cat">YouTube Script · Documentary</div><h3>The Iceberg of Most Disturbing Things Caught by Camera</h3><p>Multi-level documentary script with escalating tension and cliffhangers for binge-watch retention.</p><span class="proj-tag">True Crime / Documentary</span></div></div>
+                <div class="proj-card rv d3" data-c="youtube"><div class="proj-thumb ov-youtube"><img src="https://picsum.photos/seed/mystery-snow-mountain/800/500.jpg" alt="Dyatlov Pass"><div class="thumb-overlay"><i class="fab fa-youtube thumb-icon"></i><span class="thumb-label">Mystery Script</span></div><div class="hover-title"><span>The Dyatlov Pass Incident</span><small>YouTube · Suspense</small></div></div><div class="proj-info"><div class="proj-cat">YouTube Script · Mystery</div><h3>The Dyatlov Pass Incident — Suspense Cut</h3><p>Gripping suspense script in Hindi-Urdu covering the mysterious 1959 hiker deaths with eerie atmosphere.</p><span class="proj-tag">Mystery / Suspense</span></div></div>
+                <div class="proj-card rv d1" data-c="youtube"><div class="proj-thumb ov-youtube"><img src="https://picsum.photos/seed/history-war-documentary/800/500.jpg" alt="WW2"><div class="thumb-overlay"><i class="fab fa-youtube thumb-icon"></i><span class="thumb-label">History Script</span></div><div class="hover-title"><span>World War II — Full History</span><small>YouTube · Educational</small></div></div><div class="proj-info"><div class="proj-cat">YouTube Script · History</div><h3>World War II — Complete History Script</h3><p>Timestamped educational script from Treaty of Versailles to the Cold War for a 10-minute video.</p><span class="proj-tag">Educational / History</span></div></div>
+                <div class="proj-card rv d2" data-c="youtube"><div class="proj-thumb ov-youtube"><img src="https://picsum.photos/seed/fantasy-academy-magic/800/500.jpg" alt="Ether Veil"><div class="thumb-overlay"><i class="fab fa-youtube thumb-icon"></i><span class="thumb-label">Fantasy Script</span></div><div class="hover-title"><span>Chronicles of the Ether Veil</span><small>YouTube · Fantasy</small></div></div><div class="proj-info"><div class="proj-cat">YouTube Script · Fantasy</div><h3>Chronicles of the Ether Veil: The Awakening Ceremony</h3><p>Immersive fantasy script set in Astra Imperial Academy with a profession awakening system.</p><span class="proj-tag">Fantasy / Light Novel</span></div></div>
+                <div class="proj-card rv d3" data-c="youtube"><div class="proj-thumb ov-youtube"><img src="https://picsum.photos/seed/emotional-drama-letter/800/500.jpg" alt="The Letter"><div class="thumb-overlay"><i class="fab fa-youtube thumb-icon"></i><span class="thumb-label">Emotional Drama Script</span></div><div class="hover-title"><span>The Letter</span><small>YouTube · Emotional Drama</small></div></div><div class="proj-info"><div class="proj-cat">YouTube Script · Drama</div><h3>The Letter — A Story of Broken Promises</h3><p>Deeply emotional multi-part drama about a marriage destroyed by neglect and secrets.</p><span class="proj-tag">Emotional Drama</span></div></div>
+                <div class="proj-card rv d1" data-c="email"><div class="proj-thumb ov-email"><img src="https://picsum.photos/seed/email-outreach-b2b/800/500.jpg" alt="Cold Emailing"><div class="thumb-overlay"><i class="fas fa-envelope-open-text thumb-icon"></i><span class="thumb-label">Cold Outreach</span></div><div class="hover-title"><span>Cold Email Campaigns</span><small>Outreach · B2B</small></div></div><div class="proj-info"><div class="proj-cat">Cold Emailing · Outreach</div><h3>Cold Email Outreach Campaigns</h3><p>Personalized cold email sequences to land high-value clients with strategic subject lines and follow-ups.</p><span class="proj-tag">Outreach / B2B</span></div></div>
+                <div class="proj-card rv d2" data-c="email"><div class="proj-thumb ov-email"><img src="https://picsum.photos/seed/email-marketing-flow/800/500.jpg" alt="Email Marketing"><div class="thumb-overlay"><i class="fas fa-envelope-circle-check thumb-icon"></i><span class="thumb-label">Email Marketing</span></div><div class="hover-title"><span>Email Marketing Campaigns</span><small>Automation · Conversion</small></div></div><div class="proj-info"><div class="proj-cat">Email Marketing · Automation</div><h3>Email Marketing Campaigns & Newsletters</h3><p>Strategic email campaigns including welcome sequences, nurture flows, and promotional newsletters.</p><span class="proj-tag">Campaigns / Automation</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="sec testimonials" id="testimonials">
+        <div class="glow g3"></div>
+        <div class="wrap">
+            <div style="text-align:center" class="rv">
+                <span class="sec-label"><i class="fas fa-star"></i> Testimonials</span>
+                <h2 class="sec-t">What Clients <span class="gt">Say</span></h2>
+                <p class="sec-sub" style="margin:0 auto">Feedback from clients who've experienced the impact of strategic content.</p>
+            </div>
+            <div class="ts-slider rv">
+                <div class="ts-track" id="tsTrack">
+                    <div class="ts-card"><div class="ts-inner"><div class="ts-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="ts-quote">Ayesha's articles for Sada-e-Watan were powerful and well-researched. She tackled sensitive social issues with the depth and nuance they deserve.</p><div class="ts-auth"><div class="ts-av">SH</div><div class="ts-name">Sada-e-Watan Editorial</div><div class="ts-role">News Publication, Pakistan</div></div></div></div>
+                    <div class="ts-card"><div class="ts-inner"><div class="ts-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="ts-quote">Her YouTube script for our channel was incredible — the hooks, the pacing, the storytelling. Our average view duration jumped significantly.</p><div class="ts-auth"><div class="ts-av">AH</div><div class="ts-name">Ahmed Hassan</div><div class="ts-role">YouTube Creator</div></div></div></div>
+                    <div class="ts-card"><div class="ts-inner"><div class="ts-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="ts-quote">Ayesha's cold email sequences helped me land 3 high-ticket clients in just two weeks. Her emails feel personal, targeted, and genuinely compelling.</p><div class="ts-auth"><div class="ts-av">FK</div><div class="ts-name">Farhan Khan</div><div class="ts-role">Freelance Consultant</div></div></div></div>
+                </div>
+                <div class="sl-ctrl">
+                    <button class="sl-btn" id="slPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                    <div class="sl-dots" id="slDots"><button class="sl-dot on" data-i="0"></button><button class="sl-dot" data-i="1"></button><button class="sl-dot" data-i="2"></button></div>
+                    <button class="sl-btn" id="slNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI WORKFLOW -->
+    <section class="sec ai-sec" id="ai-workflow">
+        <div class="wrap">
+            <div class="rv-l">
+                <span class="sec-label"><i class="fas fa-robot"></i> AI Workflow</span>
+                <h2 class="sec-t">AI-Powered, <span class="gt">Human-Refined</span></h2>
+                <p class="sec-sub">I leverage AI tools to accelerate research and ideation, then apply human expertise for authentic, impactful content.</p>
+                <div class="ai-tools">
+                    <div class="ai-tc"><div class="ai-ti cg"><i class="fas fa-comment-dots"></i></div><h4>ChatGPT</h4><p>Ideation & Outlining</p></div>
+                    <div class="ai-tc"><div class="ai-ti cl"><i class="fas fa-feather"></i></div><h4>Claude</h4><p>Drafting & Refinement</p></div>
+                    <div class="ai-tc"><div class="ai-ti gm"><i class="fas fa-gem"></i></div><h4>Gemini</h4><p>Research & Fact-checking</p></div>
+                </div>
+            </div>
+            <div class="ai-steps rv-r">
+                <div class="ai-step"><div class="ai-sn">1</div><div class="ai-st"><h4>AI-Assisted Research</h4><p>Using AI to quickly gather data, identify trends, and map out content structure.</p></div></div>
+                <div class="ai-step"><div class="ai-sn">2</div><div class="ai-st"><h4>Human-Crafted Writing</h4><p>Every piece written with human touch — unique voice, emotional resonance, brand-aligned messaging.</p></div></div>
+                <div class="ai-step"><div class="ai-sn">3</div><div class="ai-st"><h4>Quality Assurance</h4><p>Thorough editing for accuracy, tone, SEO compliance, and readability.</p></div></div>
+                <div class="ai-step"><div class="ai-sn">4</div><div class="ai-st"><h4>Performance Optimization</h4><p>Post-delivery support including keyword tracking and content updates.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE ME -->
+    <section class="sec why-choose" id="why-choose">
+        <div class="glow g1"></div><div class="glow g2"></div>
+        <div class="wrap">
+            <div style="text-align:center" class="rv">
+                <span class="sec-label"><i class="fas fa-trophy"></i> Why Choose Me</span>
+                <h2 class="sec-t">What Sets Me <span class="gt">Apart</span></h2>
+                <p class="sec-sub" style="margin:0 auto">Here's why clients keep coming back.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card rv d1"><div class="why-ic"><i class="fas fa-search-dollar"></i></div><h4>SEO-Driven Strategy</h4><p>Every piece backed by keyword research and optimized to rank.</p></div>
+                <div class="why-card rv d2"><div class="why-ic"><i class="fas fa-microscope"></i></div><h4>Research Expertise</h4><p>Deep-dive research ensuring accuracy and credibility.</p></div>
+                <div class="why-card rv d3"><div class="why-ic"><i class="fas fa-comments"></i></div><h4>Clear Communication</h4><p>Responsive, transparent, and proactive.</p></div>
+                <div class="why-card rv d4"><div class="why-ic"><i class="fas fa-layer-group"></i></div><h4>Multi-Niche Experience</h4><p>Social issues, tech, history, drama, fantasy — I adapt to any industry.</p></div>
+                <div class="why-card rv d5"><div class="why-ic"><i class="fas fa-clock"></i></div><h4>On-Time Delivery</h4><p>Deadlines are sacred. Consistent, punctual delivery every time.</p></div>
+                <div class="why-card rv d6"><div class="why-ic"><i class="fas fa-envelope-open-text"></i></div><h4>Email + Content Combo</h4><p>Rare combination of content writing AND email marketing in one freelancer.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="sec contact" id="contact">
+        <div class="glow g3"></div>
+        <div class="wrap">
+            <div class="ct-info rv-l">
+                <span class="sec-label"><i class="fas fa-envelope"></i> Get In Touch</span>
+                <h2 class="sec-t">Let's Work <span class="gt">Together</span></h2>
+                <p class="sec-sub">Have a project in mind? Fill out the form and the message goes directly to my inbox.</p>
+                <div class="ct-methods">
+                    <div class="ct-m"><div class="ct-m-ic"><i class="fas fa-envelope"></i></div><div class="ct-m-t"><h4>Email</h4><p><a href="mailto:bashirayesha3354@gmail.com">bashirayesha3354@gmail.com</a></p></div></div>
+                    <div class="ct-m"><div class="ct-m-ic"><i class="fab fa-linkedin-in"></i></div><div class="ct-m-t"><h4>LinkedIn</h4><p><a href="https://www.linkedin.com/in/ayesha-bashir-8669b7332" target="_blank">linkedin.com/in/ayesha-bashir</a></p></div></div>
+                    <div class="ct-m"><div class="ct-m-ic"><i class="fas fa-arrow-up-right-from-square"></i></div><div class="ct-m-t"><h4>Upwork</h4><p><a href="https://www.upwork.com" target="_blank">upwork.com/freelancer/ayesha-bashir</a></p></div></div>
+                </div>
+                <div class="soc-links">
+                    <a href="https://www.linkedin.com/in/ayesha-bashir-8669b7332" target="_blank" class="soc-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="soc-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://onlinearning01234.blogspot.com/" target="_blank" class="soc-link" aria-label="Blogger"><i class="fab fa-blogger-b"></i></a>
+                    <a href="https://blogroup885.wordpress.com" target="_blank" class="soc-link" aria-label="WordPress"><i class="fab fa-wordpress"></i></a>
+                </div>
+            </div>
+            <div class="ct-form-w rv-r">
+                <h3>Send a Message Directly</h3>
+                <p class="form-note">This form sends the message straight to my inbox — no middleman.</p>
+                <form action="https://formsubmit.co/bashirayesha3354@gmail.com" method="POST" id="cForm">
+                    <input type="hidden" name="_subject" value="New Portfolio Message — Ayesha Bashir Website">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="">
+                    <input type="text" name="_honey" style="display:none">
+                    <div class="fg"><label for="nm">Your Name</label><input type="text" id="nm" name="name" placeholder="John Doe" required></div>
+                    <div class="fg"><label for="em">Your Email</label><input type="email" id="em" name="email" placeholder="john@example.com" required></div>
+                    <div class="fg"><label for="ms">Your Message</label><textarea id="ms" name="message" placeholder="Tell me about your project..." required></textarea></div>
+                    <button type="submit" class="fg-submit" id="submitBtn"><i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrap">
+            <div class="ft-c">
+                <div class="ft-logo"><span>Ayesha</span> Bashir</div>
+                <div class="ft-links"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Portfolio</a><a href="#testimonials">Testimonials</a><a href="#contact">Contact</a></div>
+            </div>
+            <div class="ft-bot">&copy; 2025 Ayesha Bashir. All rights reserved. Crafted with passion & precision.</div>
+        </div>
+    </footer>
+
+    <button class="s-top" id="sTop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+    const nav=document.getElementById('nav'),sTop=document.getElementById('sTop');
+    window.addEventListener('scroll',()=>{nav.classList.toggle('sc',scrollY>50);sTop.classList.toggle('vis',scrollY>600)});
+    sTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+    const navTog=document.getElementById('navTog'),mobMenu=document.getElementById('mobMenu');
+    navTog.addEventListener('click',()=>{navTog.classList.toggle('on');mobMenu.classList.toggle('open');document.body.style.overflow=mobMenu.classList.contains('open')?'hidden':''});
+    document.querySelectorAll('.ml').forEach(l=>l.addEventListener('click',()=>{navTog.classList.remove('on');mobMenu.classList.remove('open');document.body.style.overflow=''}));
+    const obs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting)en.target.classList.add('on')})},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.rv,.rv-l,.rv-r').forEach(el=>obs.observe(el));
+    const fBtns=document.querySelectorAll('.filt-btn'),pCards=document.querySelectorAll('.proj-card');
+    fBtns.forEach(b=>b.addEventListener('click',()=>{fBtns.forEach(x=>x.classList.remove('on'));b.classList.add('on');const f=b.dataset.f;pCards.forEach(c=>{if(f==='all'||c.dataset.c===f){c.style.display='';c.style.opacity='0';c.style.transform='translateY(20px)';requestAnimationFrame(()=>{c.style.transition='opacity .4s ease,transform .4s ease';c.style.opacity='1';c.style.transform='translateY(0)'})}else{c.style.opacity='0';c.style.transform='translateY(20px)';setTimeout(()=>c.style.display='none',400)}})}));
+    const track=document.getElementById('tsTrack'),dots=document.querySelectorAll('.sl-dot'),prev=document.getElementById('slPrev'),next=document.getElementById('slNext');
+    let cur=0;const tot=3;let auto;
+    function go(i){if(i<0)i=tot-1;if(i>=tot)i=0;cur=i;track.style.transform=`translateX(-${cur*100}%)`;dots.forEach((d,j)=>d.classList.toggle('on',j===cur))}
+    function startAuto(){auto=setInterval(()=>go(cur+1),5000)}function resetAuto(){clearInterval(auto);startAuto()}
+    prev.addEventListener('click',()=>{go(cur-1);resetAuto()});next.addEventListener('click',()=>{go(cur+1);resetAuto()});
+    dots.forEach(d=>d.addEventListener('click',()=>{go(+d.dataset.i);resetAuto()}));
+    let tx=0;track.addEventListener('touchstart',e=>{tx=e.changedTouches[0].screenX},{passive:true});
+    track.addEventListener('touchend',e=>{const diff=tx-e.changedTouches[0].screenX;if(Math.abs(diff)>50){diff>0?go(cur+1):go(cur-1);resetAuto()}},{passive:true});
+    startAuto();
+    const cForm=document.getElementById('cForm'),submitBtn=document.getElementById('submitBtn');
+    const nextInput=cForm.querySelector('input[name="_next"]');if(nextInput)nextInput.value=window.location.href;
+    cForm.addEventListener('submit',function(){submitBtn.innerHTML='<i class="fas fa-spinner fa-spin"></i> Sending...';submitBtn.disabled=true});
+    document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t)window.scrollTo({top:t.offsetTop-80,behavior:'smooth'})}));
+    const secs=document.querySelectorAll('section[id]');
+    window.addEventListener('scroll',()=>{const y=scrollY+120;secs.forEach(s=>{const l=document.querySelector(`.nav-links a[href="#${s.id}"]`);if(l)l.style.color=(y>=s.offsetTop&&y<s.offsetTop+s.offsetHeight)?'var(--t1)':''})});
+    const cObs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){const el=document.getElementById('st1');let c=0;const inc=15/40;const t=setInterval(()=>{c+=inc;if(c>=15){c=15;clearInterval(t)}el.textContent=Math.floor(c)+'+'},40);cObs.unobserve(en.target)}})},{threshold:.5});
+    cObs.observe(document.querySelector('.hero-stats'));
+    </script>
+</body>
+</html>
